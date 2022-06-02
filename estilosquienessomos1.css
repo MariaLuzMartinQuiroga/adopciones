@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("C:/Users/Marilu/Documents/programar/PROYECTOS/PROYECTO_1/imagenes/logorosa.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #FADBD8;
+}
+
+.articles {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    margin-top: 20px;
+}
+
+.main {
+    width: 50%;
+    margin-left: 15%;
+    float: left;
+    margin-top: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+img {
+    border: solid rgb(139, 56, 56) 2px;
+    border-radius: 20%;
+}
+
+.presidente {
+    width: 90%;
+    Height: 210px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.imagenpresidente {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+
+.textopresidente {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.vicepresidente {
+    width: 90%;
+    Height: 210px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.imagenvicepresidente {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    height: 20%;
+}
+
+.textovicepresidente {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.tesorero {
+    width: 90%;
+    Height: 210px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.imagentesorero {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 20%;
+}
+
+.textotesorero {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.imagenvicepresidente {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    height: 20%;
+}
+
+.textovicepresidente {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.fiscalizadora {
+    width: 90%;
+    Height: 210px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.imagenfiscalizadora {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    height: 20%;
+
+}
+
+.textofiscalizadora {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.presidente:hover,
+.vicepresidente:hover,
+.tesorero:hover,
+.fiscalizadora:hover {
+    background-color: aliceblue;
+}
+
+a {
+    margin-right: 200px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    float: right;
+}
+
+a:hover {
+    color:azure;
+    background-color: #000;
+}
