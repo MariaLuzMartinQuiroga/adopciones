@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagenes/carpincho.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+Header,
+.main,
+footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+a{
+    text-decoration: none;
+    border:none;
+}
+
+.boton1{
+    position:absolute;
+    top: 100px;
+    left:800px;
+}
+
+.boton2{
+    position:absolute;
+    top: 100px;
+    left:900px;
+}
+
+.boton3{
+    position:absolute;
+    top: 100px;
+    left:1000px;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
+
+.main .articles {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+.main .articles article {
+    padding: 20px;
+    background: #ECF0F1;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 30%;
+    background: #808080;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+aside a {
+    font-size:20px;
+    text-decoration: none;
+    color:#000;
+    float:right;
+}
+
+aside a:hover{
+    background-color:aquamarine;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+aside h3 { 
+font-size:24px;
+text-align: center;
+text-shadow: 2px 2px 0px #000;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align:center;
+    clear:both;
+    padding: 10px 0px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagenes/entrecarpinchos2.JPG" );
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top:5px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgb(66, 3, 3);
+}
+
+p {
+    width:90%;
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(12, 12, 12);
+    text-align: justify;
+}
+
+a {
+    margin-right: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    float: right;
+}
+
+a:hover {
+    background-color:#ffff ;
+}

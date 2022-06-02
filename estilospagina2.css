@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagenes/carpincho.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+Header,
+.main,
+footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+}
+
+.boton1 {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+.boton2 {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+
+.boton3 {
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
