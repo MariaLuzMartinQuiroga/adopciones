@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url("imagenes/entrecarpinchos2.jpeg" );
+    background-size: cover;
+    background-attachment: fixed;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.historias1:hover, .historias2:hover, .historias3:hover, .historias4:hover{
+    background: #fff;
+  
+}
+
+.historias1 {
+    width: 90%;
+    Height: 180px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.video1 {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+
+.textovideo1 {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.historias2 {
+    width: 90%;
+    Height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.video2 {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.textovideo2 {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+.historias3 {
+    width: 90%;
+    Height: 210px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.video3 {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.textovideo3 {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+.historias4 {
+    width: 90%;
+    Height: 240px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.video4 {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.textovideo4 {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+    text-align: left;
+}
+
+a {
+    margin-right: 100px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    float: right;
+}
+
+a:hover {
+    color:azure;
+    background-color: #000;
+}
